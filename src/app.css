@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 0;
+  }
+
+  p,
+  h3,
+  ul {
+    margin-top: 4px;
+  }
+
+  .flex-column {
+    display: flex;
+    gap: 48px;
+  }
+}
